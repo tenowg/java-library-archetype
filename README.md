@@ -16,6 +16,9 @@ So basically anything that you would want to start a new endeavor in the open so
 
 
 
+## Sponsoring
+This project is sponsored and supported by [holisticon AG](http://holisticon.de/cms/About/Startseite)
+
 ## License
 
 This project is released under the revised BSD License (s. LICENSE.txt).
