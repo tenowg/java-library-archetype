@@ -7,17 +7,26 @@ It should get you up and running in minutes and leave you with a project that ha
 *  Simple project layout
 *  Release automation to the [central sonatype repository](https://oss.sonatype.org/)
 *  Documentation template
-*  CI with [Travis](https://travis-ci.org/) (pending)
+*  CI with [Travis](https://travis-ci.org/)
 *  Minimal code conventions check with checkstyle (pending)
 
 So basically anything that you would want to start a new endeavor in the open source world.
 
 ## Getting started
-
-
+### Prerequisites
+1. An account at [Travis CI](https://travis-ci.org/).
+2. An account at [Sonatype](https://issues.sonatype.org).
+3. An OpenGPG installation and a gpg keypair.
+4. Maven 3.0.4 or later.
+5. JDK 1.7
+### Creating a new project
+1. Generate the intial project layout with `mvn archetype:generate  -DarchetypeGroupId:de.holisticon.archetypes -DarchetypeArtifactId:java-library`.
+2. Substitute the italic text in README.md with the specifics of your project.
+3. Add the project to git and push it go github.
+4. In Travis CI under Accounts flick the switch to add the Travis hook to your project.
 
 ## Sponsoring
-This project is sponsored and supported by [holisticon AG](http://holisticon.de/cms/About/Startseite)
+This project is sponsored and supported by [holisticon AG](http://holisticon.de).
 
 ## License
     This project is released under the revised BSD License (s. LICENSE.txt).
