@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.holisticon</groupId>
-    <artifactId>archetype</artifactId>
+    <artifactId>java-library-archetype</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Holisticon Java Archetype</name>
-    <description>Please refer to https://github.com/holisticon/archetype.</description>
+    <name>Holisticon Java Library Archetype</name>
+    <description>Please refer to https://github.com/holisticon/java-library-archetype.</description>
 
-    <url>https://github.com/holisticon/archetype</url>
+    <url>https://github.com/holisticon/java-library-archetype</url>
 
     <organization>
         <name>Holisticon AG</name>
@@ -30,7 +30,9 @@
     <licenses>
         <license>
             <name>Revised BSD License</name>
-            <url>http://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29</url>
+            <url>
+                http://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29
+            </url>
             <comments>s. license.txt</comments>
         </license>
     </licenses>
@@ -42,14 +44,14 @@
     </prerequisites>
 
     <issueManagement>
-        <url>https://github.com/holisticon/archetype/issues</url>
+        <url>https://github.com/holisticon/java-library-archetype/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:holisticon/archetype.git</connection>
-        <developerConnection>scm:git:git@github.com:holisticon/archetype.git</developerConnection>
-        <url>git@github.com:holisticon/archetype.git</url>
+        <connection>scm:git:git@github.com:holisticon/java-library-archetype.git</connection>
+        <developerConnection>scm:git:git@github.com:holisticon/java-library-archetype.git</developerConnection>
+        <url>git@github.com:holisticon/java-library-archetype.git</url>
     </scm>
 
     <properties>
@@ -57,4 +59,33 @@
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
         <encoding>UTF-8</encoding>
     </properties>
+    <profiles>
+        <profile>
+            <id>release-sign-artifacts</id>
+            <activation>
+                <property>
+                    <name>performRelease</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.1</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
