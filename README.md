@@ -6,7 +6,7 @@ It should get you up and running in minutes and leave you with a project that ha
 
 *  Simple project layout
 *  Release automation to the [central sonatype repository](https://oss.sonatype.org/)
-*  Documentation template (pending)
+*  Documentation template
 *  CI with [Travis](https://travis-ci.org/) (pending)
 *  Minimal code conventions check with checkstyle (pending)
 
