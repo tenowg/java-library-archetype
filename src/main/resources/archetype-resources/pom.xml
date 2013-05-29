@@ -13,17 +13,32 @@
         <version>7</version>
     </parent>
 
+    <name>${full_name}</name>
+    <description>Please refer to https://github.com/holisticon/${artifactId}.</description>
+
+    <url>https://github.com/holisticon/${artifactId}</url>
+
     <organization>
         <name>Holisticon AG</name>
         <url>http://www.holisticon.de/</url>
     </organization>
+    <developers>
+        <developer>
+            <name>${developer_name}</name>
+            <email>${developer_email}</email>
+            <organization>holisticon AG</organization>
+            <organizationUrl>http://holisticon.de/</organizationUrl>
+        </developer>
+    </developers>
 
     <licenses>
         <license>
-            <name>BSD license</name>
-            <url>LICENSE.txt</url>
+            <name>Revised BSD License</name>
+            <url>http://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29</url>
+            <comments>s. license.txt</comments>
         </license>
     </licenses>
+
     <inceptionYear>2013</inceptionYear>
 
     <prerequisites>

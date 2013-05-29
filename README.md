@@ -5,7 +5,7 @@ This archetype is intended to bootstrap a new open source project as quickly as 
 It should get you up and running in minutes and leave you with a project that has the following properties:
 
 *  Simple project layout
-*  Release automation to maven repository (pending)
+*  Release automation to the [central sonatype repository](https://oss.sonatype.org/)
 *  Documentation template (pending)
 *  CI with [Travis](https://travis-ci.org/) (pending)
 *  Minimal code conventions check with checkstyle (pending)

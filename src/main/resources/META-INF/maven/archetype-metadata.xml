@@ -4,16 +4,23 @@
                       xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
                       name="basic">
     <requiredProperties>
-        <requiredProperty key=" groupId">
+        <requiredProperty key="groupId">
             <defaultValue>de.holisticon</defaultValue>
         </requiredProperty>
+        <requiredProperty key="developer_name"/>
+        <requiredProperty key="developer_email"/>
+        <requiredProperty key="full_name">
+            <defaultValue>${artifactId}</defaultValue>
+        </requiredProperty>
+
+
     </requiredProperties>
     <fileSets>
         <fileSet filtered="true">
             <directory></directory>
             <includes>
                 <include>.gitignore</include>
-                <include>LICENSE.txt</include>
+                <include>license.txt</include>
                 <include>README.md</include>
             </includes>
         </fileSet>

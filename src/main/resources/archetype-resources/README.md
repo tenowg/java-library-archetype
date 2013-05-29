@@ -1,4 +1,4 @@
-# ${artifactId}   ${version}
+# ${full_name}   ${version}
 
 ## Introduction
 
@@ -32,7 +32,7 @@ The likelihood of a pull request being used rises with the following properties:
 This project is sponsored and supported by [holisticon AG](http://holisticon.de/cms/About/Startseite)
 
 ## License
-This project is released under the revised BSD License (s. LICENSE.txt).
+This project is released under the revised BSD License (s. license.txt).
 
 
 
