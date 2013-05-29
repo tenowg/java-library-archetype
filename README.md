@@ -1,5 +1,5 @@
 # Holisticon Archetype
-
+[![Build Status](https://secure.travis-ci.org/holisticon/java-library-archetype.png)](https://travis-ci.org/holisticon/java-library-archetype)
 ## Introduction
 This archetype is intended to bootstrap a new open source project as quickly as possible.
 It should get you up and running in minutes and leave you with a project that has the following properties:
