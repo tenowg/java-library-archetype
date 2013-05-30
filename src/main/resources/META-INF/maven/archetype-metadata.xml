@@ -24,5 +24,11 @@
                 <include>README.md</include>
             </includes>
         </fileSet>
+        <fileSet filtered="true">
+            <directory>src</directory>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>config</directory>
+        </fileSet>
     </fileSets>
 </archetype-descriptor>
