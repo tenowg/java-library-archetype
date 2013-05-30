@@ -11,7 +11,7 @@
 
 ## Getting started
 
-*Just some lines of description in prose and code that gets the possible user up and running with this tool.*
+*Just some lines of description in prose and code that gets the user up and running with this library.*
 
 ## Contribution
 *Change the following for correctness*
