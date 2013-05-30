@@ -30,5 +30,6 @@
         <fileSet filtered="true">
             <directory>config</directory>
         </fileSet>
+
     </fileSets>
 </archetype-descriptor>

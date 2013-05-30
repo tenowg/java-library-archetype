@@ -8,7 +8,8 @@ It should get you up and running in minutes and leave you with a project that ha
 *  Release automation to the [central sonatype repository](https://oss.sonatype.org/)
 *  Documentation template
 *  CI with [Travis](https://travis-ci.org/)
-*  Minimal code conventions check with checkstyle
+*  Code conventions check with checkstyle
+*  Statistic analysis with findbugs.
 
 So basically anything that you would want to start a new endeavor in the open source world.
 
