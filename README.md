@@ -20,6 +20,7 @@ So basically anything that you would want to start a new endeavor in the open so
 3. An OpenGPG installation and a gpg keypair.
 4. Maven 3.0.4 or later.
 5. JDK 1.7
+
 ### Creating a new project
 1. Generate the intial project layout with `mvn archetype:generate  -DarchetypeGroupId:de.holisticon.archetypes -DarchetypeArtifactId:java-library`.
 2. Substitute the italic text in README.md with the specifics of your project.
