@@ -9,7 +9,7 @@
         </requiredProperty>
         <requiredProperty key="developer_name"/>
         <requiredProperty key="developer_email"/>
-        <requiredProperty key="full_name">
+        <requiredProperty key="project_name">
             <defaultValue>${artifactId}</defaultValue>
         </requiredProperty>
 

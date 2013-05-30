@@ -13,7 +13,7 @@
         <version>7</version>
     </parent>
 
-    <name>${full_name}</name>
+    <name>${project_name}</name>
     <description>Please refer to https://github.com/holisticon/${artifactId}.</description>
 
     <url>https://github.com/holisticon/${artifactId}</url>

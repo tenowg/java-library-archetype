@@ -1,4 +1,4 @@
-# ${full_name}   ${version}
+# ${project_name}   ${version}
 
 ## Introduction
 

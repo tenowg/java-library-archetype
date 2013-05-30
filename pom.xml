@@ -9,6 +9,12 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
     <name>Holisticon Java Library Archetype</name>
     <description>Please refer to https://github.com/holisticon/java-library-archetype.</description>
 
@@ -18,6 +24,7 @@
         <name>Holisticon AG</name>
         <url>http://www.holisticon.de/</url>
     </organization>
+
     <developers>
         <developer>
             <name>Carl Anders Düvel</name>
