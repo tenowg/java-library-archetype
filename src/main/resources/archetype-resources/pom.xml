@@ -102,8 +102,9 @@
                 <configuration>
                     <includeTestSourceDirectory>true</includeTestSourceDirectory>
                     <consoleOutput>true</consoleOutput>
+                    <logViolationsToConsole>true</logViolationsToConsole>
                     <failOnViolation>true</failOnViolation>
-                    <configLocation>config/checkstyle.xml</configLocation>
+                    <configLocation>config/sun_checks.xml</configLocation>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,8 +1,5 @@
 package de.holisticon;
 
-
-
-
-public class Main{
+public class Main {
 
 }
