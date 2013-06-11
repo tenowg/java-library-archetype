@@ -4,7 +4,7 @@
 
     <groupId>de.holisticon.archetypes</groupId>
     <artifactId>java-library</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3</version>
     <packaging>jar</packaging>
 
     <parent>
@@ -57,7 +57,7 @@
         <connection>scm:git:https://github.com/holisticon/java-library-archetype.git</connection>
         <developerConnection>scm:git:https://github.com/holisticon/java-library-archetype.git</developerConnection>
         <url>scm:git:https://github.com/holisticon/java-library-archetype.git</url>
-      <tag>HEAD</tag>
+      <tag>java-library-0.3</tag>
   </scm>
     <build>
         <pluginManagement>
