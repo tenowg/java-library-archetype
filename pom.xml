@@ -60,7 +60,6 @@
         <url>scm:git:https://github.com/holisticon/java-library-archetype.git</url>
     </scm>
     <build>
-        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -68,7 +67,6 @@
                     <version>2.4</version>
                 </plugin>
             </plugins>
-        </pluginManagement>
     </build>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
