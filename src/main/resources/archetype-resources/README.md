@@ -1,5 +1,6 @@
 #set( $H = '#' )
-$H ${project_name}   ${version}
+$H ${artifactId}   ${version}
+[![Build Status](https://secure.travis-ci.org/holisticon/${artifactId}.png)](https://travis-ci.org/holisticon/${artifactId})
 $H$H Introduction
 *Make a clear and concise mission statement about the project:*
 
