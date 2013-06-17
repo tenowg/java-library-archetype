@@ -16,10 +16,8 @@ So basically anything that you would want to start a new endeavor in the open so
 ## Getting started
 ### Prerequisites
 1. An account at [Travis CI](https://travis-ci.org/).
-2. An account at [Sonatype](https://issues.sonatype.org).
-3. An OpenGPG installation and a gpg keypair.
-4. Maven 3.0.4 or later.
-5. JDK 1.7
+2. Maven 3.0.4 or later.
+3. JDK 1.7
 
 ### Creating a new project
 1. Generate the intial project layout with `mvn archetype:generate  -DarchetypeGroupId:de.holisticon.archetypes -DarchetypeArtifactId:java-library`.
